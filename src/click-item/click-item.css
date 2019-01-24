@@ -1,0 +1,52 @@
+.click-item {
+  width:300px;
+  margin-bottom:40px;
+  /* border:1px solid black; */
+}
+
+.click-item__buy-button {
+  width:100%;
+  text-transform: uppercase;
+  text-align:center;
+  padding:4px 0;
+  font-size:2em;
+  margin-bottom:10px;
+  cursor:pointer;
+  background:#34495e;
+}
+
+.click-item__buy-button:hover {
+  background: #2c3e50;
+}
+
+.click-item__info-container {
+  display:flex;
+  justify-content:space-between;
+}
+
+.click-item__image {
+  border:1px solid #95a5a6;
+  margin-right:20px;
+  border-radius:10px;
+  background: #bdc3c7;
+}
+
+.click-item__image img {
+  width:50px;
+}
+
+.click-item__upgrade-button {
+  flex-grow:2;
+  text-align:center;
+  font-size:1.2em;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-weight:bold;
+  cursor:pointer;
+  background:#e67e22;
+}
+
+.click-item__upgrade-button:hover {
+  background:#d35400;
+}

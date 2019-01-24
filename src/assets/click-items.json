@@ -1,0 +1,15 @@
+{
+  "items": [{
+    "id":1,
+    "initialUnlockPrice": null,
+    "initialUpgradePrice": 20,
+    "clickAmount": 1,
+    "imageIdentifier": "basketball"
+  }, {
+    "id":2,
+    "initialUnlockPrice" : 60,
+    "initialUpgradePrice": 500,
+    "clickAmount": 20,
+    "imageIdentifier": "soccerball"
+  }]
+}

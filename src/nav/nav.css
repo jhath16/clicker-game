@@ -1,0 +1,25 @@
+.nav {
+  font-size: 2em;
+  display:flex;
+  align-items:center;
+  background:#3498db;
+  box-shadow: 0 0 3px #34495e;
+  margin-bottom: 30px;
+}
+
+.nav__icon-group {
+  min-width:60px;
+  display:flex;
+  align-items:center;
+}
+
+.nav__icon {
+  width:1em;
+  display:inline-block;
+  margin-right:4px;
+}
+
+.nav__text {
+  vertial-align:middle;
+  font-weight:bold;
+}
