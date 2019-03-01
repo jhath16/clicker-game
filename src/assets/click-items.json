@@ -6,7 +6,7 @@
     "initialBuyTime": 1,
     "initialClickValue": 1,
     "currentLevel": 1,
-    "imageIdentifier": "basketball"
+    "name": "basketball"
   }, {
     "id":2,
     "initialUnlockPrice" : 60,
@@ -14,6 +14,6 @@
     "initialBuyTime": 5,
     "initialClickValue": 20,
     "currentLevel": 1,
-    "imageIdentifier": "soccerball"
+    "name": "soccerball"
   }]
 }

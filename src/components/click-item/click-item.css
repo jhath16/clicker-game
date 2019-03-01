@@ -13,6 +13,25 @@
   margin-bottom:10px;
   cursor:pointer;
   background:#34495e;
+  position:relative;
+}
+
+.click-item__buy-button__progress {
+  background: lightgreen;
+  width: 0%;
+  position:absolute;
+  height:100%;
+  top:0;
+  z-index: 9;
+}
+
+.click-item__buy-button__progress.active {
+  width:100%;
+}
+
+.click-item__buy-button_text {
+  position:relative;
+  z-index:99;
 }
 
 .click-item__buy-button:hover {
@@ -25,10 +44,9 @@
 }
 
 .click-item__image {
-  border:1px solid #95a5a6;
   margin-right:20px;
-  border-radius:10px;
-  background: #ecf0f1;
+  /* border-radius:10px; */
+  background: #fff;
 }
 
 .click-item__image img {
