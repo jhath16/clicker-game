@@ -17,7 +17,7 @@
 }
 
 .click-item__buy-button__progress {
-  background: lightgreen;
+  background: #2ecc71;
   width: 0%;
   position:absolute;
   height:100%;

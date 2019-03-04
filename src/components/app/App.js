@@ -14,6 +14,8 @@ class App extends Component {
 
     //bind events
     this.addMoney = this.addMoney.bind(this);
+    this.subtractMoney = this.subtractMoney.bind(this);
+    this.canBuy = this.canBuy.bind(this);
   }
 
   addMoney(amount) {
@@ -22,9 +24,20 @@ class App extends Component {
     }));
   }
 
+  subtractMoney(amount) {
+    // if (amount > this.state.money) return false;
+    this.setState( (state, props) => ({
+      money: state.money -= amount
+    }));
+  }
+
+  canBuy(amount) {
+    return this.state.money > amount
+  }
+
   render() {
     return (
-      <div className="app">
+      <div className="app noselect">
           <Nav total={this.state.money}/>
           <section>
           <div className="container">
@@ -32,6 +45,9 @@ class App extends Component {
               <ClickItem item={item}
                          key={item.id}
                          addMoney={this.addMoney}
+                         subtractMoney = {this.subtractMoney}
+                         currentLevel = {1}
+                         canBuy = {this.canBuy}
               />
             )}
           </div>

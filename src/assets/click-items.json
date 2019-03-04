@@ -1,19 +1,43 @@
 {
   "items": [{
     "id":1,
-    "initialUnlockPrice": null,
+    "unlockPrice": 0,
+    "isUnlocked":true,
     "initialUpgradePrice": 20,
     "initialBuyTime": 1,
-    "initialClickValue": 1,
-    "currentLevel": 1,
-    "name": "basketball"
-  }, {
+    "initialClickValue": 2,
+    "name": "lemons"
+  },{
     "id":2,
-    "initialUnlockPrice" : 60,
-    "initialUpgradePrice": 500,
-    "initialBuyTime": 5,
-    "initialClickValue": 20,
-    "currentLevel": 1,
-    "name": "soccerball"
+    "unlockPrice": 50,
+    "isUnlocked":false,
+    "initialUpgradePrice": 25,
+    "initialBuyTime": 1,
+    "initialClickValue": 3,
+    "name": "apples"
+  },{
+    "id":3,
+    "unlockPrice": 100,
+    "isUnlocked":false,
+    "initialUpgradePrice": 30,
+    "initialBuyTime": 1.5,
+    "initialClickValue": 4,
+    "name": "bananas"
+  },{
+    "id":4,
+    "unlockPrice": 150,
+    "isUnlocked":false,
+    "initialUpgradePrice": 35,
+    "initialBuyTime": 1.75,
+    "initialClickValue": 5,
+    "name": "grapes"
+  },{
+    "id":5,
+    "unlockPrice": 200,
+    "isUnlocked":false,
+    "initialUpgradePrice": 100,
+    "initialBuyTime": 2,
+    "initialClickValue": 15,
+    "name": "tshirt"
   }]
 }
