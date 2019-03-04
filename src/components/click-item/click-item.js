@@ -37,7 +37,6 @@ class ClickItem extends Component {
     document.querySelector(selector).classList.add('active');
 
     setTimeout(() => {
-      console.log(this.state.clickValue);
       this.props.addMoney(this.state.clickValue);
       this.setState({
         isBuying: false

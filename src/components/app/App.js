@@ -38,7 +38,7 @@ class App extends Component {
   render() {
     return (
       <div className="app noselect">
-          <Nav total={this.state.money}/>
+          <Nav total={(this.state.money).toFixed(2)}/>
           <section>
           <div className="container">
             {ClickItems.items.map((item) =>
